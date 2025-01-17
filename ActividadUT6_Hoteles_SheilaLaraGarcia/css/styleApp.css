@@ -1,0 +1,116 @@
+/***************************** Fuentes Personalizadas ***************************/
+
+@font-face {
+    font-family: Vogue;
+    src: url(../assets/fonts/Classyvogueregular.ttf);
+}
+
+@font-face {
+    font-family: Apollo;
+    src: url(../assets/fonts/APOLLO.otf);
+}
+
+@font-face {
+    font-family: Louis ;
+    src: url(../assets/fonts/Louis\ George\ Cafe.ttf);
+}
+
+/***************************** Estilos body ***************************/
+.body{
+    background-image: url("../assets/images/fondo_02.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+
+/***************************** Estilos nav ***************************/
+#navbar{
+    font-variant: small-caps;
+    border-radius: 0 0 5px 5px;
+    font-family: Louis;
+    font-weight: bold;
+}
+
+#nav__titulo{
+    font-size: 2rem;
+}
+
+.nav-link:hover{
+    text-decoration: underline;    
+}
+
+/***************************** Estilos section ***************************/
+.section{
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+#h1__section{
+    font-variant: small-caps;
+    font-family: Vogue;
+    color: white;
+    font-size: 6em;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-weight: bolder;
+}
+
+#h2__section{
+    font-variant: small-caps;
+    font-family: Apollo;
+    color: white;
+    font-size: 4em;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-weight: bolder;
+}
+
+/***************************** Estilos de las tarjetas ***************************/
+.card-title{
+    font-variant: small-caps;
+    font-family: Apollo;
+    font-weight: bolder;
+}
+
+.card-strong{
+    font-family: Louis;
+    font-variant: small-caps;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.card-text{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn{
+    font-family: Louis;
+    font-variant: small-caps;
+}
+
+/***************************** Estilos de formulario ***************************/
+.form-label{
+    font-variant: small-caps;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/***************************** Estilos de tabla ***************************/
+.table__tr{
+    border-bottom: black solid 2px;
+}
+
+.table__th{
+    font-variant: small-caps;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.table__td{
+    font-family: Arial, Helvetica, sans-serif;
+}
